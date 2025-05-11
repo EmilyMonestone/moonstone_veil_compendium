@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
-  <element name="Eye of the Vizir" type="Magic Item" source="Moonstone Veil Compendium" id="ID_MVC_MAGIC_ITEM_RING_EYE_OF_THE_VIZIR">
+  <info>
+    <name>Moonstone Veil Items</name>
+    <description>Magical artifacts and spell foci crafted from the power of the moonstone and the currents of the Ethereal Plane.</description>
+    <author url="https://github.com/EmilyMonestone">Emily P &amp; Alexander P</author>
+    <update version="1.1.2">
+      <file
+        name="items.xml"
+        url="https://raw.githubusercontent.com/EmilyMonestone/moonstone_veil_compendium/main/items.xml" />
+    </update>
+  </info>
+
+  <element 
+    name="Eye of the Vizir" 
+    type="Magic Item" 
+    source="Moonstone Veil Compendium" 
+    id="ID_MVC_MAGIC_ITEM_RING_EYE_OF_THE_VIZIR">
     <description>
       <p>While wearing this ring, you gain one 2nd-level spell slot per day. The ring regains the expended slot at dawn.</p>
-      <p>Each time you use this spell slot, roll a d20. If you roll a 1, the ring shatters and is destroyed.</p>
+      <p>Each time you use this spell slot, roll a d20. On a roll of 1, the ring shatters and is destroyed.</p>
     </description>
     <setters>
       <set name="category">Rings</set>
