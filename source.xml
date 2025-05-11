@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.1" encoding="utf-8"?>
 <elements>
-  <info>
-    <name>Moonstone Veil Sources</name>
-    <update version="1.0">
-      <file name="source.xml"
-            url="https://raw.githubusercontent.com/EmilyMonestone/moonstone_veil_compendium/main/source.xml" />
-    </update>
-  </info>
-  <!--
-    Hier deine <source>-Elemente einfügen, z.B.:
-    <source name="Lunar Archives" version="1.0" author="Emily Monestone">
-      <description>Eine Sammlung alter Mondlegenden…</description>
-    </source>
-  -->
+  <element
+    name="Moonstone Veil Compendium"
+    type="Source"
+    source="Homebrew"
+    id="ID_MVC_SOURCE_MOONSTONE_VEIL_COMPENDIUM">
+    <description>
+      <![CDATA[
+        <p>Eine kuratierte Sammlung mystischer Quellen rund um den geheimnisvollen Schleier des Mondsteins.</p>
+      ]]>
+    </description>
+    <setters>
+      <set name="abbreviation">MVC</set>
+      <set name="url">https://github.com/EmilyMonestone/moonstone_veil_compendium</set>
+      <set name="author" url="https://github.com/EmilyMonestone">Emily Monestone</set>
+      <set name="homebrew">true</set>
+    </setters>
+  </element>
 </elements>
