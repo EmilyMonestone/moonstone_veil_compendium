@@ -4,7 +4,7 @@
     <name>Moonstone Veil Items</name>
     <description>Magical artifacts and spell foci crafted from the power of the moonstone and the currents of the Ethereal Plane.</description>
     <author url="https://github.com/EmilyMonestone">Emily P &amp; Alexander P</author>
-    <update version="1.1.3">
+    <update version="1.1.4">
       <file
         name="items.xml"
         url="https://raw.githubusercontent.com/EmilyMonestone/moonstone_veil_compendium/main/items.xml" />
@@ -16,12 +16,11 @@
   type="Magic Item"
   source="Moonstone Veil Compendium"
   id="ID_MVC_MAGIC_ITEM_RING_EYE_OF_THE_VIZIR">
-    <description>
-      <p>While wearing this ring, you gain one 2nd-level spell slot per day. The ring regains that slot at dawn.</p>
-      <p>Each time you use this slot, roll a d20. On a 1, the ring shatters and is destroyed.</p>
+    <description usage="1/Day">
+      <p>While wearing this ring, you gain one 2nd-level spell slot per day. The ring regains that slot at dawn. Each time you use this slot, roll a d20. On a 1, the ring shatters and is destroyed. Each time you use this slot, roll a d20. On a 1, the ring shatters and is destroyed.</p>
     </description>
-    <sheet usage="1/Long Rest">
-      <description>Once per long rest, you gain one 2nd-level spell slot. On using it, roll a d20; on a 1 the ring is destroyed.</description>
+    <sheet usage="1/Day">
+      <description>Once day, you gain one 2nd-level spell slot. On using it, roll a d20; on a 1 the ring is destroyed.</description>
     </sheet>
     <setters>
       <set name="category">Rings</set>
