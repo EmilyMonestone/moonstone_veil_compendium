@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <name>Moonstone Veil Compendium</name>
+    <update version="1.0">
+      <!-- Name und URL der Index-Datei -->
+      <file name="moonstone_veil_compendium.index"
+            url="https://raw.githubusercontent.com/EmilyMonestone/moonstone_veil_compendium/main/moonstone_veil_compendium.index" />
+    </update>
+  </info>
+  <files>
+    <!-- Verweise auf deine Content-Dateien -->
+    <file name="source.xml"
+          url="https://raw.githubusercontent.com/EmilyMonestone/moonstone_veil_compendium/main/source.xml" />
+    <file name="items.xml"
+          url="https://raw.githubusercontent.com/EmilyMonestone/moonstone_veil_compendium/main/items.xml" />
+  </files>
+</index>
