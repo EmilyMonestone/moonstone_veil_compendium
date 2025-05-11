@@ -2,7 +2,7 @@
 <index>
   <info>
     <name>Moonstone Veil Compendium</name>
-    <update version="1.1.1">
+    <update version="1.1.2">
       <!-- Name und URL der Index-Datei -->
       <file name="moonstone_veil_compendium.index"
             url="https://raw.githubusercontent.com/EmilyMonestone/moonstone_veil_compendium/main/moonstone_veil_compendium.index" />
