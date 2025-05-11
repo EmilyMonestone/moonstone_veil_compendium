@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <element name="Eye of the Vizir" type="Magic Item" source="Moonstone Veil Compendium" id="ID_MVC_MAGIC_ITEM_RING_EYE_OF_THE_VIZIR">
-  <description>
-    <p>While wearing this ring, you gain one 2nd-level spell slot per day. The ring regains the expended slot at dawn.</p>
-    <p>Each time you use this spell slot, roll a d100. On a result of 5 or lower (5 %), the ring shatters and is destroyed.</p>
-  </description>
-  <setters>
-    <set name="category">Rings</set>
-    <set name="type">Ring</set>
-    <set name="slot">ring</set>
-    <set name="attunement">true</set>
-    <set name="rarity">Rare</set>
-  </setters>
-  <rules>
-    <grant type="SpellSlot" level="2" uses_per_day="1" />
-  </rules>
-</element>
-
+    <description>
+      <p>While wearing this ring, you gain one 2nd-level spell slot per day. The ring regains the expended slot at dawn.</p>
+      <p>Each time you use this spell slot, roll a d20. If you roll a 1, the ring shatters and is destroyed.</p>
+    </description>
+    <setters>
+      <set name="category">Rings</set>
+      <set name="type">Ring</set>
+      <set name="slot">ring</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+    </setters>
+    <rules>
+      <grant type="SpellSlot" level="2" uses_per_day="1" />
+    </rules>
+  </element>
 </elements>
