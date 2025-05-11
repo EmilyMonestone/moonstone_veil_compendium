@@ -24,6 +24,7 @@
     <setters>
       <set name="abbreviation">MVC</set>
       <set name="url">https://github.com/EmilyMonestone/moonstone_veil_compendium</set>
+      <set name="author" url="https://github.com/EmilyMonestone">Emily P &amp; Alexander P</set>
       <set name="homebrew">true</set>
     </setters>
   </element>
