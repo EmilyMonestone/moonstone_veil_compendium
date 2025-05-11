@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <name>Moonstone Veil Items</name>
+    <update version="1.0">
+      <file name="items.xml"
+            url="https://raw.githubusercontent.com/EmilyMonestone/moonstone_veil_compendium/main/items.xml" />
+    </update>
+  </info>
+  <!--
+    Hier deine <item>-Elemente einfügen, z.B.:
+    <item name="Schleier des Mondsteins" type="Artefakt" rarity="Selten">
+      <cost>2500</cost>
+      <description>Ein hauchzarter Schleier, der…</description>
+      <stats>
+        <resistance>Magie +2</resistance>
+      </stats>
+    </item>
+  -->
+</elements>
