@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
-  <element
-    name="Moonstone Veil Compendium"
-    type="Source"
-    source="Homebrew"
+  <info>
+    <name>Moonstone Veil Sources</name>
+    <description>A collection of mystical references tied to the Moonstone Veil and the Ethereal Plane.</description>
+    <author url="https://github.com/EmilyMonestone">Emily P &amp; Alexander P</author>
+    <update version="1.0">
+      <file 
+        name="source.xml" 
+        url="https://raw.githubusercontent.com/EmilyMonestone/moonstone_veil_compendium/main/source.xml" />
+    </update>
+  </info>
+
+  <element 
+    name="Moonstone Veil Compendium" 
+    type="Source" 
+    source="Homebrew" 
     id="ID_MVC_SOURCE_MOONSTONE_VEIL_COMPENDIUM">
     <description>
       <![CDATA[
-        <p>Eine kuratierte Sammlung mystischer Quellen rund um den geheimnisvollen Schleier des Mondsteins.</p>
+        <p>A collection of mystical references tied to the Moonstone Veil and the Ethereal Plane.</p>
       ]]>
     </description>
     <setters>
       <set name="abbreviation">MVC</set>
       <set name="url">https://github.com/EmilyMonestone/moonstone_veil_compendium</set>
-      <set name="author" url="https://github.com/EmilyMonestone">Emily Monestone</set>
       <set name="homebrew">true</set>
     </setters>
   </element>
