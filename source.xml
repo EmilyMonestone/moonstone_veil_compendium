@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <name>Moonstone Veil Sources</name>
+    <update version="1.0">
+      <file name="source.xml"
+            url="https://raw.githubusercontent.com/EmilyMonestone/moonstone_veil_compendium/main/source.xml" />
+    </update>
+  </info>
+  <!--
+    Hier deine <source>-Elemente einfügen, z.B.:
+    <source name="Lunar Archives" version="1.0" author="Emily Monestone">
+      <description>Eine Sammlung alter Mondlegenden…</description>
+    </source>
+  -->
+</elements>
